@@ -6,6 +6,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.support.rowset.SqlRowSet;
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -56,16 +57,56 @@ public class JdbcScaleDao implements scaleDao{
 
     @Override
     public List<Scale> getAllScales() {
+        List<Scale> scales = new ArrayList<>();
+        String sql = "" +
+                "SELECT * FROM scales;";
+        try {
+            SqlRowSet rowSet = jdbcTemplate.queryForRowSet(sql);
+            while (rowSet.next()) {
+                Scale scale = mapRowToScale(rowSet);
+                scales.add(scale);
+            }
+        } catch(EmptyResultDataAccessException | NullPointerException e) {
+
+        }
         return null;
     }
 
     @Override
     public List<Scale> getScalesByRoot(String root) {
+        List<Scale> scales = new ArrayList<>();
+        String sql = "" +
+                "SELECT * FROM scales " +
+                "WHERE root = ?;";
+
+        try {
+            SqlRowSet rowSet = jdbcTemplate.queryForRowSet(sql, root);
+            while (rowSet.next()) {
+                Scale scale = mapRowToScale(rowSet);
+                scales.add(scale);
+            }
+        } catch(EmptyResultDataAccessException | NullPointerException e) {
+
+        }
         return null;
     }
 
     @Override
     public List<Scale> getScalesByType(String type) {
+        List<Scale> scales = new ArrayList<>();
+        String sql = "" +
+                "SELECT * FROM scales " +
+                "WHERE type = ?;";
+
+        try {
+            SqlRowSet rowSet = jdbcTemplate.queryForRowSet(sql, type);
+            while (rowSet.next()) {
+                Scale scale = mapRowToScale(rowSet);
+                scales.add(scale);
+            }
+        } catch(EmptyResultDataAccessException | NullPointerException e) {
+
+        }
         return null;
     }
 
