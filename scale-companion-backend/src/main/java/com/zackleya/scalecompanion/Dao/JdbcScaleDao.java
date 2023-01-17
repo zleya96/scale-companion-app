@@ -13,7 +13,7 @@ import java.util.List;
 @Component
 public class JdbcScaleDao implements scaleDao{
 
-    private JdbcTemplate jdbcTemplate = new JdbcTemplate();
+    private JdbcTemplate jdbcTemplate;
 
     public JdbcScaleDao(JdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
@@ -66,6 +66,7 @@ public class JdbcScaleDao implements scaleDao{
                 Scale scale = mapRowToScale(rowSet);
                 scales.add(scale);
             }
+            return scales;
         } catch(EmptyResultDataAccessException | NullPointerException e) {
 
         }
@@ -85,6 +86,7 @@ public class JdbcScaleDao implements scaleDao{
                 Scale scale = mapRowToScale(rowSet);
                 scales.add(scale);
             }
+            return scales;
         } catch(EmptyResultDataAccessException | NullPointerException e) {
 
         }
@@ -104,6 +106,7 @@ public class JdbcScaleDao implements scaleDao{
                 Scale scale = mapRowToScale(rowSet);
                 scales.add(scale);
             }
+            return scales;
         } catch(EmptyResultDataAccessException | NullPointerException e) {
 
         }
@@ -116,7 +119,7 @@ public class JdbcScaleDao implements scaleDao{
         scale.setId(rowSet.getInt("scale_id"));
         scale.setRoot(rowSet.getString("root"));
         scale.setType(rowSet.getString("type"));
-        scale.setNotes((char[]) rowSet.getObject("notes"));
+        scale.setNotes(rowSet.getString("notes"));
         scale.setDiagram(rowSet.getString("diagram"));
         scale.setDescription(rowSet.getString("description"));
 

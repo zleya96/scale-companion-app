@@ -5,12 +5,12 @@ public class Scale {
     private int id;
     private String root;
     private String type;
-    private char[] notes;
+    private String notes;
     private String diagram;
     private String description;
 
     public Scale() {}
-    public Scale(int id, String root, String type, char[] notes, String diagram, String description) {
+    public Scale(int id, String root, String type, String notes, String diagram, String description) {
         this.id = id;
         this.root = root;
         this.type = type;
@@ -31,7 +31,7 @@ public class Scale {
         return type;
     }
 
-    public char[] getNotes() {
+    public String getNotes() {
         return notes;
     }
 
@@ -55,7 +55,7 @@ public class Scale {
         this.type = type;
     }
 
-    public void setNotes(char[] notes) {
+    public void setNotes(String notes) {
         this.notes = notes;
     }
 

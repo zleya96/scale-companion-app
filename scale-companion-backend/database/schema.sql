@@ -15,7 +15,8 @@ CREATE TABLE scales (
     scale_id Serial PRIMARY KEY UNIQUE,
     root varchar (10) NOT NULL,
     type varchar (50) NOT NULL,
-    notes char[] NOT NULL,
+--    notes text[] NOT NULL,
+    notes varchar(70) NOT NULL,
     diagram varchar (500) NULL,
     description varchar (500) NULL
 );
