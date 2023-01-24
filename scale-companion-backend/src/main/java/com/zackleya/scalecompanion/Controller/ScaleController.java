@@ -3,10 +3,7 @@ package com.zackleya.scalecompanion.Controller;
 import com.zackleya.scalecompanion.Dao.scaleDao;
 import com.zackleya.scalecompanion.Model.Scale;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -17,7 +14,7 @@ public class ScaleController {
     @Autowired
     private scaleDao scaleDao;
 
-    @GetMapping("/scale/{root}_{type}")
+    @GetMapping("/scale/{root}/{type}")
     public Scale getScaleByRootAndType(@PathVariable("root") String root, @PathVariable("type") String type) {
         return scaleDao.getScaleByRootAndType(root, type);
     }

@@ -5,8 +5,8 @@ export default {
         return axios.get('/scale');
     },
 
-    getScalesByRootAndType(root, type) {
-        return axios.get(`/scale/${root}_${type}`)
+    getScaleByRootAndType(root, type) {
+        return axios.get(`/scale/${root}/${type}`)
     },
 
     getScalesByRoot(root) {

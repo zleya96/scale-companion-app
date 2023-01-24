@@ -6,7 +6,7 @@
 
 <script>
 // @ is an alias to /src
-import ScaleHome from '@/components/ScaleHome.vue';
+import ScaleHome from '@/components/ScaleHome';
 
 export default {
   name: 'HomeView',

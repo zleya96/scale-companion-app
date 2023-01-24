@@ -100,23 +100,6 @@ INSERT INTO scales (root, type, notes) VALUES ('Ab', 'Mixolydian', 'Ab,Bb,C,Db,E
 INSERT INTO scales (root, type, notes) VALUES ('Eb', 'Mixolydian', 'Eb,F,G,Ab,Bb,C,Db');
 INSERT INTO scales (root, type, notes) VALUES ('Bb', 'Mixolydian', 'Bb,C,D,Eb,F,G,Ab');
 
---Aeolian
-INSERT INTO scales (root, type, notes) VALUES ('C', 'Aeolian', 'C,D,Eb,F,G,Ab,Bb');
-INSERT INTO scales (root, type, notes) VALUES ('D', 'Aeolian', 'D,E,F,G,A,Bb,C');
-INSERT INTO scales (root, type, notes) VALUES ('E', 'Aeolian', 'E,F#,G,A,B,C,D');
-INSERT INTO scales (root, type, notes) VALUES ('F', 'Aeolian', 'F,G,Ab,Bb,C,Db,Eb');
-INSERT INTO scales (root, type, notes) VALUES ('G', 'Aeolian', 'G,A,Bb,C,D,Eb,F');
-INSERT INTO scales (root, type, notes) VALUES ('A', 'Aeolian', 'A,B,C,D,E,F,G');
-INSERT INTO scales (root, type, notes) VALUES ('B', 'Aeolian', 'B,C#,D,E,F#,G,A');
-INSERT INTO scales (root, type, notes) VALUES ('Cb', 'Aeolian', 'Cb,Db,Ebb,Fb,Gb,Abb,Bbb');
-INSERT INTO scales (root, type, notes) VALUES ('F#', 'Aeolian', 'F#,G#,A,B,C#,D,E');
-INSERT INTO scales (root, type, notes) VALUES ('Gb', 'Aeolian', 'Gb,Ab,Bbb,Cb,Db,Ebb,Fb');
-INSERT INTO scales (root, type, notes) VALUES ('C#', 'Aeolian', 'C#,D#,E,F#,G#,A,B');
-INSERT INTO scales (root, type, notes) VALUES ('Db', 'Aeolian', 'Db,Eb,Fb,Gb,Ab,Bbb,Cb');
-INSERT INTO scales (root, type, notes) VALUES ('Ab', 'Aeolian', 'Ab,Bb,Cb,Db,Eb,Fb,Gb');
-INSERT INTO scales (root, type, notes) VALUES ('Eb', 'Aeolian', 'Eb,F,Gb,Ab,Bb,Cb,Db');
-INSERT INTO scales (root, type, notes) VALUES ('Bb', 'Aeolian', 'Bb,C,Db,Eb,F,Gb,Ab');
-
 --Locrian
 INSERT INTO scales (root, type, notes) VALUES ('C', 'Locrian', 'C,Db,Eb,F,Gb,Ab,Bb');
 INSERT INTO scales (root, type, notes) VALUES ('D', 'Locrian', 'D,Eb,F,G,Ab,Bb,C');
