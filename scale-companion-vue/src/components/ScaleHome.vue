@@ -20,7 +20,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'ScaleHome',
   props: {
     msg: String
   }
