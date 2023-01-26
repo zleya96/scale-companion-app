@@ -13,13 +13,13 @@
         <option value="B">B</option>
         <option value="Cb">Cb</option>
         <option value="C">C</option>
-        <option value="C#">C#</option>
+        <option value="Csharp">C#</option>
         <option value="Db">Db</option>
         <option value="D">D</option>
         <option value="Eb">Eb</option>
         <option value="E">E</option>
         <option value="F">F</option>
-        <option value="F#">F#</option>
+        <option value="Fsharp">F#</option>
         <option value="Gb">Gb</option>
         <option value="G">G</option>
       </select>
@@ -47,6 +47,7 @@
     <div v-if="display">
       <h1>{{ currentScaleString }}</h1>
       <h2>{{ notesSplit }}</h2>
+      <img v-bind:src="this.$store.state.currentScale.diagram" alt="">
     </div>
 
   </div>
@@ -90,7 +91,15 @@ export default {
 
   computed: {
     currentScaleString() {
-      return this.$store.state.currentScale.root + " " + this.$store.state.currentScale.type;
+      let currentScale = this.$store.state.currentScale;
+      if(currentScale.root === 'Csharp') {
+        return 'C# ' + currentScale.type;
+      }
+      else if(currentScale.root === 'Fsharp') {
+        return 'F# ' + currentScale.type;
+      } else {
+      return currentScale.root + " " + currentScale.type;
+      }
     },
     
     isDisabled() {
