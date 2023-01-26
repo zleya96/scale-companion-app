@@ -28,7 +28,7 @@ export default new Vuex.Store({
     SET_CURRENT_ROOT(state, root) {
       state.currentRoot = root;
     },
-    SET_CURRENT_Type(state, type) {
+    SET_CURRENT_TYPE(state, type) {
       state.currentType = type;
     },
   },

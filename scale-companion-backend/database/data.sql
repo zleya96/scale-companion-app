@@ -16,21 +16,21 @@ INSERT INTO scales (root, type, notes) VALUES ('Eb', 'Major', 'Eb,F,G,Ab,Bb,C,D'
 INSERT INTO scales (root, type, notes) VALUES ('Bb', 'Major', 'Bb,C,D,Eb,F,G,A');
 
 --Natural Minor
-INSERT INTO scales (root, type, notes) VALUES ('C', 'Natural Minor', 'C,D,Eb,F,G,Ab,Bb');
-INSERT INTO scales (root, type, notes) VALUES ('D', 'Natural Minor', 'D,E,F,G,A,Bb,C');
-INSERT INTO scales (root, type, notes) VALUES ('E', 'Natural Minor', 'E,F#,G,A,B,C,D');
-INSERT INTO scales (root, type, notes) VALUES ('F', 'Natural Minor', 'F,G,Ab,Bb,C,Db,Eb');
-INSERT INTO scales (root, type, notes) VALUES ('G', 'Natural Minor', 'G,A,Bb,C,D,Eb,F');
-INSERT INTO scales (root, type, notes) VALUES ('A', 'Natural Minor', 'A,B,C,D,E,F,G');
-INSERT INTO scales (root, type, notes) VALUES ('B', 'Natural Minor', 'B,C#,D,E,F#,G,A');
-INSERT INTO scales (root, type, notes) VALUES ('Cb', 'Natural Minor', 'Cb,Db,Ebb,Fb,Gb,Abb,Bbb');
-INSERT INTO scales (root, type, notes) VALUES ('F#', 'Natural Minor', 'F#,G#,A,B,C#,D,E');
-INSERT INTO scales (root, type, notes) VALUES ('Gb', 'Natural Minor', 'Gb,Ab,Bbb,Cb,Db,Ebb,Fb');
-INSERT INTO scales (root, type, notes) VALUES ('C#', 'Natural Minor', 'C#,D#,E,F#,G#,A,B');
-INSERT INTO scales (root, type, notes) VALUES ('Db', 'Natural Minor', 'Db,Eb,Fb,Gb,Ab,Bbb,Cb');
-INSERT INTO scales (root, type, notes) VALUES ('Ab', 'Natural Minor', 'Ab,Bb,Cb,Db,Eb,Fb,Gb');
-INSERT INTO scales (root, type, notes) VALUES ('Eb', 'Natural Minor', 'Eb,F,Gb,Ab,Bb,Cb,Db');
-INSERT INTO scales (root, type, notes) VALUES ('Bb', 'Natural Minor', 'Bb,C,Db,Eb,F,Gb,Ab');
+INSERT INTO scales (root, type, notes) VALUES ('C', 'Natural-Minor', 'C,D,Eb,F,G,Ab,Bb');
+INSERT INTO scales (root, type, notes) VALUES ('D', 'Natural-Minor', 'D,E,F,G,A,Bb,C');
+INSERT INTO scales (root, type, notes) VALUES ('E', 'Natural-Minor', 'E,F#,G,A,B,C,D');
+INSERT INTO scales (root, type, notes) VALUES ('F', 'Natural-Minor', 'F,G,Ab,Bb,C,Db,Eb');
+INSERT INTO scales (root, type, notes) VALUES ('G', 'Natural-Minor', 'G,A,Bb,C,D,Eb,F');
+INSERT INTO scales (root, type, notes) VALUES ('A', 'Natural-Minor', 'A,B,C,D,E,F,G');
+INSERT INTO scales (root, type, notes) VALUES ('B', 'Natural-Minor', 'B,C#,D,E,F#,G,A');
+INSERT INTO scales (root, type, notes) VALUES ('Cb', 'Natural-Minor', 'Cb,Db,Ebb,Fb,Gb,Abb,Bbb');
+INSERT INTO scales (root, type, notes) VALUES ('F#', 'Natural-Minor', 'F#,G#,A,B,C#,D,E');
+INSERT INTO scales (root, type, notes) VALUES ('Gb', 'Natural-Minor', 'Gb,Ab,Bbb,Cb,Db,Ebb,Fb');
+INSERT INTO scales (root, type, notes) VALUES ('C#', 'Natural-Minor', 'C#,D#,E,F#,G#,A,B');
+INSERT INTO scales (root, type, notes) VALUES ('Db', 'Natural-Minor', 'Db,Eb,Fb,Gb,Ab,Bbb,Cb');
+INSERT INTO scales (root, type, notes) VALUES ('Ab', 'Natural-Minor', 'Ab,Bb,Cb,Db,Eb,Fb,Gb');
+INSERT INTO scales (root, type, notes) VALUES ('Eb', 'Natural-Minor', 'Eb,F,Gb,Ab,Bb,Cb,Db');
+INSERT INTO scales (root, type, notes) VALUES ('Bb', 'Natural-Minor', 'Bb,C,Db,Eb,F,Gb,Ab');
 
 --Dorian
 INSERT INTO scales (root, type, notes) VALUES ('C', 'Dorian', 'C,D,Eb,F,G,A,Bb');
@@ -118,35 +118,35 @@ INSERT INTO scales (root, type, notes) VALUES ('Eb', 'Locrian', 'Eb,Fb,Gb,Ab,Bbb
 INSERT INTO scales (root, type, notes) VALUES ('Bb', 'Locrian', 'Bb,Cb,Db,Eb,Fb,Gb,Ab');
 
 --Harmonic Minor
-INSERT INTO scales (root, type, notes) VALUES ('C', 'Harmonic Minor', 'C,D,Eb,F,G,Ab,B');
-INSERT INTO scales (root, type, notes) VALUES ('D', 'Harmonic Minor', 'D,E,F,G,A,Bb,C#');
-INSERT INTO scales (root, type, notes) VALUES ('E', 'Harmonic Minor', 'E,F#,G,A,B,C,D#');
-INSERT INTO scales (root, type, notes) VALUES ('F', 'Harmonic Minor', 'F,G,Ab,Bb,C,Db,E');
-INSERT INTO scales (root, type, notes) VALUES ('G', 'Harmonic Minor', 'G,A,Bb,C,D,Eb,F#');
-INSERT INTO scales (root, type, notes) VALUES ('A', 'Harmonic Minor', 'A,B,C,D,E,F,G#');
-INSERT INTO scales (root, type, notes) VALUES ('B', 'Harmonic Minor', 'B,C#,D,E,F#,G,A#');
-INSERT INTO scales (root, type, notes) VALUES ('Cb', 'Harmonic Minor', 'Cb,Db,Ebb,Fb,Gb,Abb,Bb');
-INSERT INTO scales (root, type, notes) VALUES ('F#', 'Harmonic Minor', 'F#,G#,A,B,C#,D,E#');
-INSERT INTO scales (root, type, notes) VALUES ('Gb', 'Harmonic Minor', 'Gb,Ab,Bbb,Cb,Db,Ebb,F');
-INSERT INTO scales (root, type, notes) VALUES ('C#', 'Harmonic Minor', 'C#,D#,E,F#,G#,A,B#');
-INSERT INTO scales (root, type, notes) VALUES ('Db', 'Harmonic Minor', 'Db,Eb,Fb,Gb,Ab,Bbb,C');
-INSERT INTO scales (root, type, notes) VALUES ('Ab', 'Harmonic Minor', 'Ab,Bb,Cb,Db,Eb,Fb,G');
-INSERT INTO scales (root, type, notes) VALUES ('Eb', 'Harmonic Minor', 'Eb,F,Gb,Ab,Bb,Cb,D');
-INSERT INTO scales (root, type, notes) VALUES ('Bb', 'Harmonic Minor', 'Bb,C,Db,Eb,F,Gb,A');
+INSERT INTO scales (root, type, notes) VALUES ('C', 'Harmonic-Minor', 'C,D,Eb,F,G,Ab,B');
+INSERT INTO scales (root, type, notes) VALUES ('D', 'Harmonic-Minor', 'D,E,F,G,A,Bb,C#');
+INSERT INTO scales (root, type, notes) VALUES ('E', 'Harmonic-Minor', 'E,F#,G,A,B,C,D#');
+INSERT INTO scales (root, type, notes) VALUES ('F', 'Harmonic-Minor', 'F,G,Ab,Bb,C,Db,E');
+INSERT INTO scales (root, type, notes) VALUES ('G', 'Harmonic-Minor', 'G,A,Bb,C,D,Eb,F#');
+INSERT INTO scales (root, type, notes) VALUES ('A', 'Harmonic-Minor', 'A,B,C,D,E,F,G#');
+INSERT INTO scales (root, type, notes) VALUES ('B', 'Harmonic-Minor', 'B,C#,D,E,F#,G,A#');
+INSERT INTO scales (root, type, notes) VALUES ('Cb', 'Harmonic-Minor', 'Cb,Db,Ebb,Fb,Gb,Abb,Bb');
+INSERT INTO scales (root, type, notes) VALUES ('F#', 'Harmonic-Minor', 'F#,G#,A,B,C#,D,E#');
+INSERT INTO scales (root, type, notes) VALUES ('Gb', 'Harmonic-Minor', 'Gb,Ab,Bbb,Cb,Db,Ebb,F');
+INSERT INTO scales (root, type, notes) VALUES ('C#', 'Harmonic-Minor', 'C#,D#,E,F#,G#,A,B#');
+INSERT INTO scales (root, type, notes) VALUES ('Db', 'Harmonic-Minor', 'Db,Eb,Fb,Gb,Ab,Bbb,C');
+INSERT INTO scales (root, type, notes) VALUES ('Ab', 'Harmonic-Minor', 'Ab,Bb,Cb,Db,Eb,Fb,G');
+INSERT INTO scales (root, type, notes) VALUES ('Eb', 'Harmonic-Minor', 'Eb,F,Gb,Ab,Bb,Cb,D');
+INSERT INTO scales (root, type, notes) VALUES ('Bb', 'Harmonic-Minor', 'Bb,C,Db,Eb,F,Gb,A');
 
 --Melodic Minor
-INSERT INTO scales (root, type, notes) VALUES ('C', 'Melodic Minor', 'C,D,Eb,F,G,A,B');
-INSERT INTO scales (root, type, notes) VALUES ('D', 'Melodic Minor', 'D,E,F,G,A,B,C#');
-INSERT INTO scales (root, type, notes) VALUES ('E', 'Melodic Minor', 'E,F#,G,A,B,C#,D#');
-INSERT INTO scales (root, type, notes) VALUES ('F', 'Melodic Minor', 'F,G,Ab,Bb,C,D,E');
-INSERT INTO scales (root, type, notes) VALUES ('G', 'Melodic Minor', 'G,A,Bb,C,D,E,F#');
-INSERT INTO scales (root, type, notes) VALUES ('A', 'Melodic Minor', 'A,B,C,D,E,F#,G#');
-INSERT INTO scales (root, type, notes) VALUES ('B', 'Melodic Minor', 'B,C#,D,E,F#,G#,A#');
-INSERT INTO scales (root, type, notes) VALUES ('Cb', 'Melodic Minor', 'Cb,Db,Ebb,Fb,Gb,Ab,Bb');
-INSERT INTO scales (root, type, notes) VALUES ('F#', 'Melodic Minor', 'F#,G#,A,B,C#,D#,E#');
-INSERT INTO scales (root, type, notes) VALUES ('Gb', 'Melodic Minor', 'Gb,Ab,Bbb,Cb,Db,Eb,F');
-INSERT INTO scales (root, type, notes) VALUES ('C#', 'Melodic Minor', 'C#,D#,E,F#,G#,A#,B#');
-INSERT INTO scales (root, type, notes) VALUES ('Db', 'Melodic Minor', 'Db,Eb,Fb,Gb,Ab,Bb,C');
-INSERT INTO scales (root, type, notes) VALUES ('Ab', 'Melodic Minor', 'Ab,Bb,Cb,Db,Eb,F,G');
-INSERT INTO scales (root, type, notes) VALUES ('Eb', 'Melodic Minor', 'Eb,F,Gb,Ab,Bb,C,D');
-INSERT INTO scales (root, type, notes) VALUES ('Bb', 'Melodic Minor', 'Bb,C,Db,Eb,F,G,A');
+INSERT INTO scales (root, type, notes) VALUES ('C', 'Melodic-Minor', 'C,D,Eb,F,G,A,B');
+INSERT INTO scales (root, type, notes) VALUES ('D', 'Melodic-Minor', 'D,E,F,G,A,B,C#');
+INSERT INTO scales (root, type, notes) VALUES ('E', 'Melodic-Minor', 'E,F#,G,A,B,C#,D#');
+INSERT INTO scales (root, type, notes) VALUES ('F', 'Melodic-Minor', 'F,G,Ab,Bb,C,D,E');
+INSERT INTO scales (root, type, notes) VALUES ('G', 'Melodic-Minor', 'G,A,Bb,C,D,E,F#');
+INSERT INTO scales (root, type, notes) VALUES ('A', 'Melodic-Minor', 'A,B,C,D,E,F#,G#');
+INSERT INTO scales (root, type, notes) VALUES ('B', 'Melodic-Minor', 'B,C#,D,E,F#,G#,A#');
+INSERT INTO scales (root, type, notes) VALUES ('Cb', 'Melodic-Minor', 'Cb,Db,Ebb,Fb,Gb,Ab,Bb');
+INSERT INTO scales (root, type, notes) VALUES ('F#', 'Melodic-Minor', 'F#,G#,A,B,C#,D#,E#');
+INSERT INTO scales (root, type, notes) VALUES ('Gb', 'Melodic-Minor', 'Gb,Ab,Bbb,Cb,Db,Eb,F');
+INSERT INTO scales (root, type, notes) VALUES ('C#', 'Melodic-Minor', 'C#,D#,E,F#,G#,A#,B#');
+INSERT INTO scales (root, type, notes) VALUES ('Db', 'Melodic-Minor', 'Db,Eb,Fb,Gb,Ab,Bb,C');
+INSERT INTO scales (root, type, notes) VALUES ('Ab', 'Melodic-Minor', 'Ab,Bb,Cb,Db,Eb,F,G');
+INSERT INTO scales (root, type, notes) VALUES ('Eb', 'Melodic-Minor', 'Eb,F,Gb,Ab,Bb,C,D');
+INSERT INTO scales (root, type, notes) VALUES ('Bb', 'Melodic-Minor', 'Bb,C,Db,Eb,F,G,A');
