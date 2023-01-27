@@ -1,7 +1,7 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-
+  <div class="scale-page">
+    <!-- <h1>{{ msg }}</h1> -->
+    
     <div class="select">
       <label for="root-selector">Root </label>
       <select required name="root-selector" id="root-selector" v-model="root" :on-change="setRoot()">
@@ -122,17 +122,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
 a {
   color: #42b983;
 }
@@ -144,5 +133,8 @@ option[value=""][disabled] {
 }
 option {
   color: black;
+}
+.scale-page {
+  
 }
 </style>
